@@ -1,9 +1,0 @@
-.table{
-    border: 30px solid rosybrown;
-    border-collapse: collapse;
-}
-tr,td{
-    border: 15px solid tan;
-    border-collapse: collapse;
-    padding: 10px;
-}

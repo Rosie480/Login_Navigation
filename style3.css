@@ -1,0 +1,31 @@
+.resturant{
+      display: flex;
+    padding: 20px;
+    outline: 2px solid blue;
+    gap: 5%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-color: burlywood;
+}
+a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+.deserts{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.deserts img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+

@@ -5,51 +5,191 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <style>
-    .form{
-        margin: 10%;
-        padding: 100px;
-        background-color: rosybrown;
-        box-shadow: 20px 4px rgb(67, 67, 67);
-        text-align: center;
-
-    }
-    .input{
-        padding: 100px;
-        width: 100px;
-        height: 100px;
-        margin: 10%;
-        border-radius: 100px;
-        text-align: center;
-    
-    }
-    .sub{
-        background-color: aqua;
-        color: rgb(194, 142, 74);
-        font-weight: bold;
-
-    }
-    .h1{
-        padding: 50px;
-        text-align: center;
-        color: rgb(105, 87, 61);
-    }
-
-    body{
-        margin: 10%;
-        text-align: center;
-    }
-    .login{
+    a{
+        text-decoration: none;
+        color:  royalblue;
         padding: 10px;
         text-align: center;
+        text-align: justify;
     }
+    header{
+        text-align: center;
+        color: rosybrown;
+        background-color: rgba(249, 151, 210, 0.701);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    button{
+        padding: 12px;
+        background-color: rgb(210, 137, 191);
+        border: 10;
+        border-radius: 5px;
+        text-align: center;
+    }
+    body{ 
+        background-color: transparent;
+        text-align: center;
+
+    }
+    .login{
+        padding: 30px;
+        text-align: center;
+        color: rgba(117, 239, 199, 0.785);
+    }
+    .sub{
+        color: burlywood;
+        padding: 10px;
+    }
+    .msg{
+        position: absolute;
+        top: 30%;
+        color: rgb(42, 162, 214);
+        text-align: center;
+    } 
+    .msg button{
+        border: 1px solid salmon;
+        background-color: transparent;
+        color: rgba(121, 215, 215, 0.82);
+    }
+    .hero.img{
+        width: 100%;
+        height: 100px;
+    }
+    .hero.img img{
+        width: 800%;
+        height: 100vh;
+        position: relative;
+    }
+    .msg{
+        position: absolute;
+        top: 30%;
+        color: aquamarine;
+        left: 25%;
+        text-align: center;
+    }
+    .msg button:hover{
+        background-color: rgb(95, 203, 233);
+        color: black;
+    }
+    .main-abt h1{
+        text-align: center;
+        color: aquamarine;
+    }
+    .abt-cont{
+        display: flex;
+        justify-content: space-around;
+    }
+    .abt-cont img{
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .abt-content p{
+        text-align: justify;
+        line-height: 1.5rem;
+        color: rosybrown;
+    }
+    .abt-content button{
+        padding: 15px;
+        background-color: bisque;
+        border: 10;
+        border-radius: 5px;
+        color: black;
+    }
+    hr{
+        border: 2px solid rgb(43, 173, 185);
+        width: 50%;
+    }
+    .gal-cont h1{
+        text-align: center;
+        color: rgb(207, 183, 95);
+    }
+    .gal-img{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: blanchedalmond;
+    }
+    .gal-img img{
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .gal-cont{
+        padding: 20px;
+    }
+   
 </style>
 <body>
-    <form action="">
-    <h1>login</h1>
-    <input type="email" placeholder="email"><br>
-    <input type="password" placeholder="password"><br>
-    <input type="submit" placeholder="submit"><br>
-    </form>
+    <header>
+        <h1> Code With Pretty </h1>
+        <a href=""> Home</a>
+        <a href=""> About</a>
+        <a href="">Gallery</a>
+    </header>
+    <main> 
+        <div class="msg">
+            <h1>Welcome To My Website</h1><br>
+            <button>Read Me</button><br>
+        </div>    
+        <div class="img"></div>
+        <img src="Welcome Butterfly Metal Sign - Custom Metal Name Sign - Etsy.jpeg" alt="hero.img">
+    </main>  
+    <main>  
+
+        <!--About section-->
+        <div class="main-abt">
+            <h1>ABOUT US </h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eligendi veniam inventore aspernatur eveniet laborum, aut reprehenderit nostrum hic repellat animi quos. Tenetur repellendus veritatis sed, dolorum fuga suscipit illo.</p>
+            <img src="Screenshot 2025-09-09 193042.png" alt="img">  
+        </div>  
+
+            <div class="abt-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laboriosam dolores temporibus consequatur perferendis quod porro natus quaerat? Tempora, distinctio enim provident sequi doloremque dolore laudantium itaque sed molestiae voluptatibus?</p>
+                <button class="abt-button">read more</button><br>
+            </div>
+
+            <!-- Gallery section -->
+        <div class="gal-cont">
+            <h1>Gallery</h1>
+            <hr>
+        <div class="gal-img">
+                <img src="download.jpeg" alt="image">
+                <img src="download.jpeg" alt="image">
+                <img src="download.jpeg"  alt="image">
+                <img src="sunrise.jpeg" alt="image">
+                <img src="sunrise.jpeg" alt="image">
+                <img src="sunrise.jpeg" alt="image">
+                <img src="sunset.jpeg" alt="image">
+                <img src="sunset.jpeg" alt="image">
+                <img src="sunset.jpeg" alt="image">
+
+         </div>
+        </div>
+    </main>
+    <div class="test">
+        <h1>Happy Clients</h1>
+        <div class="maintest">
+            <figure>
+                <img src="Zendaya para Variety’s Actors on Actors.jpeg" alt="Zendaya">
+            <figcaption>
+                <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</q></p>
+                <h3>Zendaya</h3>
+            </figcaption>
+            </figure>
+            <figure>
+                <img src="Zendaya para Variety’s Actors on Actors.jpeg" alt="Zendaya">
+            </figure>
+            <figcaption>
+                <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</q></p>
+                <h3>Zendaya</h3>
+            </figcaption>
+    <!-- Footer section -->
+    <footer>
+        <p class="sub">Copyright &copy; 2025 Code With Pretty</p>
+    </footer>
 </body>
 </html>
